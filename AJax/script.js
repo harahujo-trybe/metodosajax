@@ -1,7 +1,13 @@
 const texto = document.createElement('h1');
 texto.id = 'titulo';
-texto.innerText = 'Buscador de Constantes em Repositorio GIThub'
+texto.innerText = 'Buscador de Constantes em Repositorio GIThub';
 document.body.appendChild(texto);
+
+const dados = document.createElement('h2');
+dados.id = 'dados';
+dados.innerText = 'Insira dos Dados aqui';
+document.body.appendChild(dados);
+
 
 // Cria um novo botão para copiar o texto
 const botaoCopiar = document.createElement('button');
