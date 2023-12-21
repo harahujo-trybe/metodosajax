@@ -1,5 +1,126 @@
+/* Atributos para background */
+body {
+    background-color: #ecdddd;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Atributos para texto */
 #titulo {
-    /* Adicione suas regras CSS aqui */
-    color: green;
-    font-size: 18px;
+    color: #333;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ccc;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    white-space: nowrap;
+}
+
+/* Atributos para texto */
+#titulo2, #titulo3 {
+    color: #333;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ccc;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    white-space: nowrap;
+}
+
+/* Atributos para fonte */
+#titulo {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+/* Atributos para fonte */
+#titulo2, #titulo3 {
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: small-caps;
+}
+/* Atributos para bordas */
+#botaoCopiar {
+    border-width: 2px;
+    border-color: #333;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px #ccc;
+    border-top-color: #333;
+    border-right-color: #333;
+    border-bottom-color: #333;
+    border-left-color: #333;
+    position: relative;
+    top: -16vh; /* 10% da altura da janela do navegador */
+    left: 0vw; /* 10% da largura da janela do navegador */
+}
+
+/* Atributos para margens */
+#titulo {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: -8px;
+}
+
+#titulo2, #titulo3 {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: -8px;
+}
+#botaoCopiar {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+/* Atributos para padding */
+#titulo {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#titulo2, #titulo3 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#botaoCopiar {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/* Atributos para lista */
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url("list-style.jpg");
+}
+
+/* Atributos para tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 10px;
+    table-layout: fixed;
+    caption-side: bottom;
 }
